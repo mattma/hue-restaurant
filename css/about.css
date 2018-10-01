@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS About Page */
+#contentMiddle #twoColumnLeft {
+	float: left;
+	height: 280px;
+	width: 619px;
+	margin: 2em 0;
+	padding-right: 2em;
+	border-right: 1px solid #77aa81;
+}
+#contentMiddle #twoColumnRight{
+	float: left;
+	height: 280px;
+	width: 300px;
+	margin: 2em 0;
+	padding-left: 2em;
+}
+#contentMiddle #twoColumnLeft p, #contentMiddle #twoColumnRight p 
+{
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	font-weight: lighter;
+	color: #797365;
+	padding-bottom: .8em;
+}
+#contentMiddle #twoColumnRight .meal {
+	color: #77aa81;
+	font-weight: bold;
+	padding-right: 1em;
+}
+#contentMiddle #twoColumnRight .lunchDate, #contentMiddle #twoColumnRight .brunchDate, #contentMiddle #twoColumnRight .dinnerDate, #contentMiddle #twoColumnRight .weekendDate {
+	font-style: italic;
+	padding-right: 1em;
+}
+#contentMiddle #twoColumnRight .weekendDate {
+	margin-left: 4.5em;
+}
+#contentMiddle #twoColumnRight .darkColor {
+	text-align: center;
+	padding: 0 2em;
+	margin: 2em 0;
+	color: #333;
+}
+#contentMiddle #twoColumnRight a {
+	color: #4d2009;
+	text-decoration: none;
+}
+#contentMiddle #twoColumnRight a:hover {
+	color: #77aa81;
+	text-decoration: underline;
+}
+#contentBottom #homeMiddle div, #contentBottom #homeRight div {
+	padding-bottom: .6em;
+	color: #77aa81;
+	font-size: 1.2em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+#contentBottom #homeLeft .greenColor {
+	color: #77aa81;
+	font-size: 1.2em;
+	padding-top: 1.6em;
+    font-style: italic;
+}
+#contentBottom #homeLeft .bigText {
+	font-size: 1.6em;
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+

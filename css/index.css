@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS index page*/
+#contentMiddle #FlashID {
+	height: 320px;
+	width: 1060px;
+	margin-left: -50px;
+}
+#contentBottom #homeLeft, #contentBottom #homeMiddle, #contentBottom #homeRight, #contentBottom #special, #contentBottom #main, #contentBottom #dessert  {
+	float: left;
+	height: 340px;
+}
+#contentBottom #homeLeft, #contentBottom #special {
+	width: 299px;
+	border-right: 1px solid #77aa81;
+	padding-right: 2em;
+	margin: 2em 0;
+}
+#contentBottom #homeLeft h2, #contentBottom #homeMiddle h2, #contentBottom #homeRight h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 2em;
+	color: #47393a;
+	padding-bottom: 1em;
+	text-align: center;
+}
+#contentBottom #homeLeft p, #contentBottom #homeMiddle p, #contentBottom #homeRight p,  #contentBottom #homeRight p {
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 1.3em;
+	line-height: 1.8em;
+	font-weight: lighter;
+	color: #797365;
+}
+#contentBottom .pDown {
+	padding-bottom: .8em;
+}
+#contentBottom .textColor, #contentMiddle .textColor {
+	color: #77aa81;
+	font-weight: bold;
+}
+#contentBottom .logoColor, #contentMiddle .logoColor{
+	font-weight: bold;
+	color: #47393a;
+}
+#contentBottom #homeMiddle, #contentBottom #main {
+	width: 279px;
+	border-right: 1px solid #77aa81;
+	margin: 2em 0;
+	padding:0 2em;
+}
+#contentBottom #homeRight, #contentBottom #dessert {
+	width: 299px;
+	margin: 2em 0;
+	padding-left: 2em;
+}
+

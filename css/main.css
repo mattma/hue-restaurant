@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS main doc */
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg.jpg) repeat-x;
+}
+#wrapper {
+	font-size: 62.5%;
+	width: 960px;
+	margin: 0px auto;
+}
+#wrapper #header {
+	background: #0b1319;
+}
+#header #top {
+	background-color: #47393a;
+	opacity: .7;
+	height: 30px;
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: lighter;
+	line-height: 30px;
+	color: #77aa81;
+}
+#header #top .floatLeft   {
+	float: left;
+	font-weight: bolder;
+}
+#header #bottom #logo a:hover{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	color: #f7f3df;
+}
+#header #top .floatRight {
+	float: right;
+}
+#header #bottom {
+	height: 120px;
+}
+#header #bottom #logo {
+	margin-top: 12px;
+	float: left;
+}
+#header #bottom #logo img {
+	margin-left: -0.3em;
+	margin-right: 8em;
+}
+#header #bottom #nav ul li {
+	float: left;
+	margin-right: 20px;
+	list-style: none;
+}
+#header #bottom #nav ul li .noBorder {
+	border-right-width: 0px;
+	border-right-style: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+#header #bottom #nav ul li .current {
+	color: #f7f3df;
+}
+#header #bottom #nav ul li a {
+	font-size: 2.4em;
+	color: #77aa81;
+	text-align: center;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 120px;
+	padding: 20px 20px 20px 0;
+	border-right: 1px solid #D6CEAB;
+}
+#header #bottom #nav ul li a:hover {
+	color: #f7f3df;
+}
+#wrapper #contentMiddle {
+	background: #f3eed8;
+	height: 320px;
+}
+#wrapper #contentBottom {
+	background: #eae1c1;
+	height: 380px;
+}
+#wrapper #footer {
+	height: 140px;
+	background: #0b1319;
+	opacity: .9;
+}
+#footer p {
+	font-size: 1.2em;
+	color: #EAE1C1;
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-weight: lighter;
+}
+#footer #footerLeft  {
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	float: left;
+	margin: 1em 1em 0 0;
+}
+#footer #footerLeft p {
+	line-height: 2em;
+}
+#footer p .address, #footer p .meal{
+	color: #77AA81;
+}
+#footer p .telephone{
+	padding-left: 1.5em;
+	letter-spacing: 2px;
+	color: #f7f3df;
+}
+#footer #footerLeft .dinnerDate {
+	margin-left: 2em;
+}
+#footer #footerLeft .lunchDate {
+	margin-left: 2.2em;
+}
+#footer #footerLeft .brunchDate {
+	margin-left: 1.8em;
+}
+#footer #footerLeft .weekendDate {
+	margin-left: 5.4em;
+}
+#footer #footerLeft .dinnerTime {
+	margin-left: 2.4em;
+	letter-spacing: 2px;
+}
+#footer #footerLeft .lunchTime {
+	margin-left: 2.5em;
+	letter-spacing: 2px;
+}
+#footer #footerLeft .brunchTime {
+	margin-left: 2.6em;
+	letter-spacing: 2px;
+}
+#footer #footerLeft .weekendTime {
+	margin-left: 3.2em;
+	letter-spacing: 2px;
+}
+#footer #footerRight {
+	float: right;
+	margin: 0 2em 0 0;
+	text-align: center;
+	width:57%;
+}
+#footer #footerRight p {
+	font-size: 1.2em;
+	line-height: 2em;
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+#footer #footerRight p a {
+	text-decoration: none;
+}
+#footer #footerRight p a:hover {
+	background-color: #f7f3df; 
+}
+#footer #footerRight .footerTop {
+	margin-top: 1em;
+}
+#footer #footerRight img {
+	float: right;
+	margin: 3.9em -2em 0 3.5em;
+}
+#footer #footerRight .name {
+	color: #77aa81;
+}
+

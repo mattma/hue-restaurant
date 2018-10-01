@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	color: #000;
+	line-height: 1.4em;
+}
+img {
+	visibility: hidden;   	
+}
+h2 {
+   font-size: 1.6em;	
+}
+h3 {
+   font-size: 1.4em;	
+}
+p {
+	font-size: 1.2em;
+	line-height: 2em;
+}
+ul {
+   list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	padding-bottom: 1.4em;
+}
+#header #bottom #nav {
+	visibility: hidden; 
+}
+#contentMiddle #menu ul li {
+	visibility: hidden; 
+}
+#contentMiddle #menu ul li .current {
+	 font-size: 1.6em;
+	visibility: visible;
+}
+#footer {
+   	visibility: hidden;	
+}
+#contentMiddle {
+	margin-top: -29em;
+}
+#contentMiddle #app{
+	margin-top: -3em;
+}
+#main #removeForPrint {
+	margin-top: -5em;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS recognition page */
+#contentMiddle #reconTopLeft, #contentBottom #reconBottomLeft {
+	float: left;
+	width: 459px;
+	margin:2em 0;
+	padding-right: 2em;
+	border-right: 1px solid #77aa81;
+}
+#contentMiddle #reconTopRight, #contentBottom #reconBottomRight {
+	float: left;
+	width: 460px;
+	margin: 2em 0;
+	padding-left: 2em;
+}
+#contentMiddle #reconTopLeft, #contentMiddle #reconTopRight {
+    height: 280px;	
+}
+#contentBottom #reconBottomLeft,#contentBottom #reconBottomRight {
+	height: 340px;
+}
+#contentMiddle #reconTopLeft ul, #contentBottom #reconBottomLeft ul, #contentMiddle #reconTopRight ul, #contentBottom #reconBottomRight ul{
+	list-style: none;
+}
+#contentMiddle #reconTopLeft ul li, #contentBottom #reconBottomLeft ul li, #contentMiddle #reconTopRight ul li, #contentBottom #reconBottomRight ul li
+{
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	font-weight: lighter;
+	color: #797365;
+	padding-bottom: .8em;
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS menu page */
+#contentMiddle #menu {
+	height: 40px;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+#contentMiddle #menu ul {
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	margin-right: 5em;
+	margin-left: 15em;
+	list-style: none;
+}
+#contentMiddle #menu ul li {
+	float: left;
+	padding-right: 10em;
+}
+#contentMiddle #menu ul li a {
+	font-size: 4em;
+	line-height: 40px;
+	color: #77aa81;
+	text-decoration: none;
+	font-weight: bold;
+}
+#contentMiddle #menu ul li .current {
+	color: #47393A;
+}
+#contentMiddle #app {
+	float: left;
+	height: 260px;
+	width: 459px;
+	margin:1em 0;
+	padding-right: 2em;
+	border-right: 1px solid #77aa81;
+}
+#contentMiddle #salad {
+	float: left;
+	width: 460px;
+	margin: 1em 0;
+	padding-left: 2em;
+}
+#contentMiddle #app h3, #contentMiddle #salad h3, #contentBottom #special h3, #contentBottom #main h3, #contentBottom #dessert h3
+{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 1.8em;
+	color: #47393a;
+	padding-bottom: 1em;
+	text-align: center;
+	line-height: 1.4em;
+}
+#contentMiddle #app ul, #contentMiddle #salad ul, #contentBottom #special ul, #contentBottom #main ul, #contentBottom #dessert ul
+{
+	list-style: none;
+}
+#contentMiddle #app ul li, #contentMiddle #salad ul li, #contentBottom #special ul li, #contentBottom #main ul li, #contentBottom #dessert ul li
+{
+	font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	font-weight: lighter;
+	color: #797365;
+	padding-bottom: .8em;
+}
+#contentMiddle #salad .darkColor {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-right: 6em;
+	padding-left: 6em;
+	display: block;
+	font-style: italic;
+	color: #333333;
+}
